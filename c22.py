@@ -9,6 +9,8 @@ import sys
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
+proxys = open('proxy.txt').readlines()
+bots = len(proxys)
 
 def ascii_vro():
     clear()
